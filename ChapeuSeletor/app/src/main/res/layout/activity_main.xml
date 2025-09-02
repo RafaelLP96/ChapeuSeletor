@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="O que você mais valoriza?"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupCasas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioCoragem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coragem"
+            android:textSize="18sp"/>
+
+        <RadioButton
+            android:id="@+id/radioSabedoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sabedoria"
+            android:textSize="18sp"/>
+
+        <RadioButton
+            android:id="@+id/radioAmbicao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ambição"
+            android:textSize="18sp"/>
+
+        <RadioButton
+            android:id="@+id/radioLealdade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lealdade"
+            android:textSize="18sp"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnSortear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Descobrir minha casa!"/>
+
+</LinearLayout>
