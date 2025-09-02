@@ -8,15 +8,14 @@ import android.widget.RadioGroup
 import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
+//Rafael de Lima Pacheco: RA 40369724094 
+    
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        // 1. Pegar as referências dos elementos da tela (Views)
         val radioGroup = findViewById<RadioGroup>(R.id.radioGroupCasas)
         val button = findViewById<Button>(R.id.btnSortear)
-
-        // Dentro de MainActivity.kt, dentro do metodo onCreate
 
         button.setOnClickListener {
             val idSelecionado = radioGroup.checkedRadioButtonId
